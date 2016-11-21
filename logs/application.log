@@ -1,0 +1,317 @@
+2016-11-21 10:19:18,910 [INFO] from application in ForkJoinPool-1-worker-2 - Creating Pool for datasource 'default'
+2016-11-21 10:19:19,206 [INFO] from play.api.db.HikariCPConnectionPool in ForkJoinPool-1-worker-2 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 10:19:19,281 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-2 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 10:19:20,428 [INFO] from play.api.Play in ForkJoinPool-1-worker-2 - Application started (Dev)
+2016-11-21 10:19:21,004 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-4 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:19:21,008 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-4 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:19:21,010 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-4 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:25:15,726 [ERROR] from application in netty-event-loop-8 - 
+
+! @726142651 - Internal server error, for (GET) [/] ->
+ 
+play.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[unexpected ->]
+	at play.forkrun.protocol.Serializers$playExceptionPickler$.unpickle(Serializers.scala:159)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileFailureUnpickler$macro$56$2$.unpickle(Serializers.scala:175)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickle(Serializers.scala:181)
+	at scala.pickling.Unpickler$class.unpickleEntry(Pickler.scala:79)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickleEntry(Serializers.scala:181)
+	at scala.pickling.functions$.unpickle(functions.scala:11)
+	at sbt.serialization.JsonValue$$anonfun$parse$1.apply(SerializedValue.scala:104)
+	at scala.util.Try$.apply(Try.scala:192)
+	at sbt.serialization.JsonValue.parse(SerializedValue.scala:104)
+	at sbt.protocol.BuildValue.value(Values.scala:11)
+	at sbt.protocol.TaskSuccess.resultWithCustomThrowable(Values.scala:65)
+	at sbt.protocol.TaskResult$class.result(Values.scala:56)
+	at sbt.protocol.TaskSuccess.result(Values.scala:62)
+	at play.forkrun.ForkRun$$anonfun$reloading$1.applyOrElse(ForkRun.scala:198)
+	at akka.actor.Actor$class.aroundReceive(Actor.scala:465)
+	at play.forkrun.ForkRun.aroundReceive(ForkRun.scala:153)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:516)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:487)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:254)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:221)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:231)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2016-11-21 10:25:42,737 [INFO] from application in application-akka.actor.default-dispatcher-28 - Shutting down connection pool.
+2016-11-21 10:25:43,335 [INFO] from application in application-akka.actor.default-dispatcher-28 - Creating Pool for datasource 'default'
+2016-11-21 10:25:43,339 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-28 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 10:25:43,341 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-28 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 10:25:43,452 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-28 - Application started (Dev)
+2016-11-21 10:27:02,647 [ERROR] from application in netty-event-loop-5 - 
+
+! @7261488ba - Internal server error, for (GET) [/] ->
+ 
+play.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[reserved word "function"]
+	at play.forkrun.protocol.Serializers$playExceptionPickler$.unpickle(Serializers.scala:159)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileFailureUnpickler$macro$56$2$.unpickle(Serializers.scala:175)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickle(Serializers.scala:181)
+	at scala.pickling.Unpickler$class.unpickleEntry(Pickler.scala:79)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickleEntry(Serializers.scala:181)
+	at scala.pickling.functions$.unpickle(functions.scala:11)
+	at sbt.serialization.JsonValue$$anonfun$parse$1.apply(SerializedValue.scala:104)
+	at scala.util.Try$.apply(Try.scala:192)
+	at sbt.serialization.JsonValue.parse(SerializedValue.scala:104)
+	at sbt.protocol.BuildValue.value(Values.scala:11)
+	at sbt.protocol.TaskSuccess.resultWithCustomThrowable(Values.scala:65)
+	at sbt.protocol.TaskResult$class.result(Values.scala:56)
+	at sbt.protocol.TaskSuccess.result(Values.scala:62)
+	at play.forkrun.ForkRun$$anonfun$reloading$1.applyOrElse(ForkRun.scala:198)
+	at akka.actor.Actor$class.aroundReceive(Actor.scala:465)
+	at play.forkrun.ForkRun.aroundReceive(ForkRun.scala:153)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:516)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:487)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:254)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:221)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:231)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2016-11-21 10:28:22,252 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2016-11-21 10:28:22,694 [INFO] from application in application-akka.actor.default-dispatcher-8 - Creating Pool for datasource 'default'
+2016-11-21 10:28:22,696 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-8 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 10:28:22,698 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-8 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 10:28:22,802 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2016-11-21 10:28:23,059 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-7 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:28:23,059 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-7 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:28:23,059 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-7 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:30:38,247 [ERROR] from application in netty-event-loop-3 - 
+
+! @72614kfa4 - Internal server error, for (GET) [/] ->
+ 
+play.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[unexpected //]
+	at play.forkrun.protocol.Serializers$playExceptionPickler$.unpickle(Serializers.scala:159)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileFailureUnpickler$macro$56$2$.unpickle(Serializers.scala:175)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickle(Serializers.scala:181)
+	at scala.pickling.Unpickler$class.unpickleEntry(Pickler.scala:79)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickleEntry(Serializers.scala:181)
+	at scala.pickling.functions$.unpickle(functions.scala:11)
+	at sbt.serialization.JsonValue$$anonfun$parse$1.apply(SerializedValue.scala:104)
+	at scala.util.Try$.apply(Try.scala:192)
+	at sbt.serialization.JsonValue.parse(SerializedValue.scala:104)
+	at sbt.protocol.BuildValue.value(Values.scala:11)
+	at sbt.protocol.TaskSuccess.resultWithCustomThrowable(Values.scala:65)
+	at sbt.protocol.TaskResult$class.result(Values.scala:56)
+	at sbt.protocol.TaskSuccess.result(Values.scala:62)
+	at play.forkrun.ForkRun$$anonfun$reloading$1.applyOrElse(ForkRun.scala:198)
+	at akka.actor.Actor$class.aroundReceive(Actor.scala:465)
+	at play.forkrun.ForkRun.aroundReceive(ForkRun.scala:153)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:516)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:487)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:254)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:221)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:231)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2016-11-21 10:31:24,281 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.
+2016-11-21 10:31:24,726 [INFO] from application in application-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
+2016-11-21 10:31:24,728 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-2 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 10:31:24,730 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-2 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 10:31:24,800 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2016-11-21 10:31:25,489 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:31:25,490 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:31:25,490 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:33:50,190 [INFO] from application in application-akka.actor.default-dispatcher-3 - Shutting down connection pool.
+2016-11-21 10:33:50,611 [INFO] from application in application-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
+2016-11-21 10:33:50,614 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-3 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 10:33:50,619 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-3 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 10:33:50,695 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-3 - Application started (Dev)
+2016-11-21 10:33:50,949 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-5 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:33:50,949 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-5 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:33:50,949 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-5 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:36:22,198 [INFO] from application in application-akka.actor.default-dispatcher-16 - Shutting down connection pool.
+2016-11-21 10:36:22,447 [INFO] from application in application-akka.actor.default-dispatcher-16 - Creating Pool for datasource 'default'
+2016-11-21 10:36:22,452 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-16 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 10:36:22,454 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-16 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 10:36:22,575 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-16 - Application started (Dev)
+2016-11-21 10:36:26,751 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:36:26,751 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:36:26,751 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:38:12,713 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2016-11-21 10:38:12,994 [INFO] from application in application-akka.actor.default-dispatcher-9 - Creating Pool for datasource 'default'
+2016-11-21 10:38:13,002 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-9 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 10:38:13,005 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-9 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 10:38:13,125 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-9 - Application started (Dev)
+2016-11-21 10:38:13,732 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:38:13,732 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:38:13,732 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:39:39,733 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2016-11-21 10:39:40,126 [INFO] from application in application-akka.actor.default-dispatcher-5 - Creating Pool for datasource 'default'
+2016-11-21 10:39:40,127 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-5 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 10:39:40,129 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-5 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 10:39:40,216 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-5 - Application started (Dev)
+2016-11-21 10:39:41,100 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-5 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:39:41,100 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-5 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:39:41,100 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-5 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:40:05,230 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2016-11-21 10:40:05,325 [INFO] from application in application-akka.actor.default-dispatcher-8 - Creating Pool for datasource 'default'
+2016-11-21 10:40:05,327 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-8 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 10:40:05,329 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-8 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 10:40:05,396 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2016-11-21 10:40:05,522 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-4 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:40:05,523 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-4 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:40:05,523 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-4 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:40:49,184 [INFO] from application in application-akka.actor.default-dispatcher-6 - Shutting down connection pool.
+2016-11-21 10:40:49,284 [INFO] from application in application-akka.actor.default-dispatcher-6 - Creating Pool for datasource 'default'
+2016-11-21 10:40:49,286 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-6 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 10:40:49,288 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-6 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 10:40:49,357 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-6 - Application started (Dev)
+2016-11-21 10:40:49,646 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:40:49,646 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:40:49,646 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:45:09,231 [INFO] from application in application-akka.actor.default-dispatcher-3 - Shutting down connection pool.
+2016-11-21 10:45:09,682 [INFO] from application in application-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
+2016-11-21 10:45:09,688 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-3 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 10:45:09,692 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-3 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 10:45:09,770 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-3 - Application started (Dev)
+2016-11-21 10:45:10,072 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-5 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:45:10,072 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-5 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:45:10,072 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-5 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:46:35,806 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2016-11-21 10:46:35,947 [INFO] from application in application-akka.actor.default-dispatcher-8 - Creating Pool for datasource 'default'
+2016-11-21 10:46:35,949 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-8 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 10:46:35,951 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-8 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 10:46:36,035 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2016-11-21 10:46:36,243 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:46:36,243 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:46:36,243 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 10:59:58,036 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-12 housekeeper - HikariPool-12 - Thread starvation or clock leap detected (housekeeper delta=12m21s974ms).
+2016-11-21 11:02:10,562 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2016-11-21 11:02:11,143 [INFO] from application in application-akka.actor.default-dispatcher-5 - Creating Pool for datasource 'default'
+2016-11-21 11:02:11,150 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-5 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:02:11,154 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-5 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:02:11,262 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-5 - Application started (Dev)
+2016-11-21 11:02:11,478 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-10 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:02:11,478 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-10 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:02:11,478 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-10 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:05:01,873 [INFO] from application in application-akka.actor.default-dispatcher-21 - Shutting down connection pool.
+2016-11-21 11:05:02,383 [INFO] from application in application-akka.actor.default-dispatcher-21 - Creating Pool for datasource 'default'
+2016-11-21 11:05:02,392 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-21 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:05:02,395 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-21 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:05:02,478 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-21 - Application started (Dev)
+2016-11-21 11:05:02,877 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:05:02,878 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:05:02,878 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:07:18,157 [INFO] from application in application-akka.actor.default-dispatcher-18 - Shutting down connection pool.
+2016-11-21 11:07:18,634 [INFO] from application in application-akka.actor.default-dispatcher-18 - Creating Pool for datasource 'default'
+2016-11-21 11:07:18,638 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-18 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:07:18,640 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-18 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:07:18,738 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-18 - Application started (Dev)
+2016-11-21 11:07:19,009 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-7 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:07:19,009 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-7 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:07:19,009 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-7 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:08:17,890 [INFO] from application in application-akka.actor.default-dispatcher-21 - Shutting down connection pool.
+2016-11-21 11:08:18,125 [INFO] from application in application-akka.actor.default-dispatcher-21 - Creating Pool for datasource 'default'
+2016-11-21 11:08:18,130 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-21 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:08:18,134 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-21 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:08:18,224 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-21 - Application started (Dev)
+2016-11-21 11:08:18,406 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:08:18,406 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:08:18,406 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:09:17,142 [INFO] from application in application-akka.actor.default-dispatcher-6 - Shutting down connection pool.
+2016-11-21 11:09:17,283 [INFO] from application in application-akka.actor.default-dispatcher-6 - Creating Pool for datasource 'default'
+2016-11-21 11:09:17,285 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-6 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:09:17,288 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-6 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:09:17,414 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-6 - Application started (Dev)
+2016-11-21 11:09:17,592 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:09:17,592 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:09:17,592 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:09:51,266 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2016-11-21 11:09:51,401 [INFO] from application in application-akka.actor.default-dispatcher-9 - Creating Pool for datasource 'default'
+2016-11-21 11:09:51,406 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-9 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:09:51,409 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-9 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:09:51,509 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-9 - Application started (Dev)
+2016-11-21 11:09:51,623 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:09:51,624 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:09:51,624 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:10:27,291 [INFO] from application in application-akka.actor.default-dispatcher-3 - Shutting down connection pool.
+2016-11-21 11:10:27,388 [INFO] from application in application-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
+2016-11-21 11:10:27,394 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-3 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:10:27,405 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-3 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:10:27,485 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-3 - Application started (Dev)
+2016-11-21 11:10:27,636 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-7 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:10:27,636 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-7 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:10:27,636 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-7 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:12:36,726 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2016-11-21 11:12:37,137 [INFO] from application in application-akka.actor.default-dispatcher-8 - Creating Pool for datasource 'default'
+2016-11-21 11:12:37,140 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-8 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:12:37,141 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-8 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:12:37,236 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2016-11-21 11:12:37,395 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:12:37,395 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:12:37,395 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:12:54,300 [INFO] from application in application-akka.actor.default-dispatcher-4 - Shutting down connection pool.
+2016-11-21 11:12:54,402 [INFO] from application in application-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2016-11-21 11:12:54,407 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-4 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:12:54,411 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-4 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:12:54,556 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2016-11-21 11:12:54,688 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:12:54,688 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:12:54,688 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:13:09,932 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2016-11-21 11:13:10,052 [INFO] from application in application-akka.actor.default-dispatcher-8 - Creating Pool for datasource 'default'
+2016-11-21 11:13:10,057 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-8 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:13:10,063 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-8 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:13:10,135 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2016-11-21 11:13:10,344 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:13:10,344 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:13:10,344 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:14:11,203 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2016-11-21 11:14:11,276 [INFO] from application in application-akka.actor.default-dispatcher-5 - Creating Pool for datasource 'default'
+2016-11-21 11:14:11,277 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-5 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:14:11,278 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-5 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:14:11,333 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-5 - Application started (Dev)
+2016-11-21 11:14:11,477 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-7 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:14:11,477 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-7 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:14:11,477 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-7 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:15:07,942 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2016-11-21 11:15:08,392 [INFO] from application in application-akka.actor.default-dispatcher-8 - Creating Pool for datasource 'default'
+2016-11-21 11:15:08,398 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-8 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:15:08,404 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-8 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:15:08,507 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2016-11-21 11:15:08,669 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:15:08,669 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:15:08,669 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-6 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:15:59,403 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2016-11-21 11:15:59,517 [INFO] from application in application-akka.actor.default-dispatcher-9 - Creating Pool for datasource 'default'
+2016-11-21 11:15:59,520 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-9 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:15:59,523 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-9 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:15:59,641 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-9 - Application started (Dev)
+2016-11-21 11:15:59,803 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-9 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:15:59,803 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-9 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:15:59,803 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-9 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:16:28,777 [INFO] from application in application-akka.actor.default-dispatcher-6 - Shutting down connection pool.
+2016-11-21 11:16:28,876 [INFO] from application in application-akka.actor.default-dispatcher-6 - Creating Pool for datasource 'default'
+2016-11-21 11:16:28,877 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-6 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:16:28,880 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-6 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:16:28,958 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-6 - Application started (Dev)
+2016-11-21 11:16:29,120 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:16:29,121 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:16:29,121 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-3 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:18:45,681 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2016-11-21 11:18:46,088 [INFO] from application in application-akka.actor.default-dispatcher-9 - Creating Pool for datasource 'default'
+2016-11-21 11:18:46,089 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-9 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:18:46,091 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-9 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:18:46,134 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-9 - Application started (Dev)
+2016-11-21 11:18:46,307 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:18:46,307 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:18:46,307 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-2 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:18:57,158 [INFO] from application in application-akka.actor.default-dispatcher-4 - Shutting down connection pool.
+2016-11-21 11:18:57,199 [INFO] from application in application-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2016-11-21 11:18:57,201 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-4 - datasource [default] bound to JNDI as DefaultDS
+2016-11-21 11:18:57,202 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-4 - Database [default] connected at jdbc:h2:mem:play
+2016-11-21 11:18:57,239 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2016-11-21 11:18:57,357 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-4 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:18:57,357 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-4 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 11:18:57,357 [WARN] from org.hibernate.ejb.HibernatePersistence in application-akka.actor.default-dispatcher-4 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2016-11-21 12:24:09,018 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-28 housekeeper - HikariPool-28 - Thread starvation or clock leap detected (housekeeper delta=1h4m41s706ms).
+2016-11-21 12:48:24,955 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-28 housekeeper - HikariPool-28 - Thread starvation or clock leap detected (housekeeper delta=18m45s871ms).
+2016-11-21 13:50:11,286 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-28 housekeeper - HikariPool-28 - Thread starvation or clock leap detected (housekeeper delta=44m16s109ms).
+2016-11-21 15:54:13,786 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-28 housekeeper - HikariPool-28 - Thread starvation or clock leap detected (housekeeper delta=48m1s537ms).
+2016-11-21 16:24:41,030 [INFO] from application in play-fork-run-akka.actor.default-dispatcher-181 - Shutting down connection pool.

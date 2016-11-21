@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/alex/Desktop/HTW/Semester 2/M 21 SDF/play-test/play-java-intro/conf/application.conf,/Users/alex/Desktop/HTW/Semester 2/M 21 SDF/play-test/play-java-intro/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/alex/Desktop/HTW/Semester 2/M 21 SDF/play-test/play-java-intro/conf/logback.xml,/Users/alex/Desktop/HTW/Semester 2/M 21 SDF/play-test/play-java-intro/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/alex/Desktop/HTW/Semester 2/M 21 SDF/play-test/play-java-intro/conf/META-INF,/Users/alex/Desktop/HTW/Semester 2/M 21 SDF/play-test/play-java-intro/target/scala-2.11/classes/META-INF)[0m
+[0m[[0mdebug[0m] [0m	(/Users/alex/Desktop/HTW/Semester 2/M 21 SDF/play-test/play-java-intro/conf/routes,/Users/alex/Desktop/HTW/Semester 2/M 21 SDF/play-test/play-java-intro/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/alex/Desktop/HTW/Semester 2/M 21 SDF/play-test/play-java-intro/conf/META-INF/persistence.xml,/Users/alex/Desktop/HTW/Semester 2/M 21 SDF/play-test/play-java-intro/target/scala-2.11/classes/META-INF/persistence.xml)[0m
